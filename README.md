@@ -32,11 +32,6 @@ Then open Shuttle normally.
 3. You will see a one-time **"Open Anyway"** button for Shuttle.app — click it
 4. Confirm in the dialog that appears
 
-**Option C — Right-click**
-1. Right-click (or Control-click) `Shuttle.app`
-2. Select **Open** from the context menu
-3. Click **Open** in the dialog
-
 ### Install the CLI
 ```bash
 curl -L https://github.com/glazec/shuttle-releases/releases/latest/download/shuttle-cli-darwin-arm64 -o /usr/local/bin/shuttle
