@@ -18,7 +18,24 @@ Download the latest release from the [Releases](https://github.com/glazec/shuttl
 ### Install the App
 1. Download `Shuttle-app-v*.zip` from Releases
 2. Unzip and drag `Shuttle.app` to `/Applications`
-3. First launch: right-click, Open (bypasses Gatekeeper for unsigned app)
+3. Open the app (since the app is not signed, macOS will block it on first launch)
+
+**Option A — Terminal (fastest)**
+```bash
+xattr -d com.apple.quarantine /Applications/Shuttle.app
+```
+Then open Shuttle normally.
+
+**Option B — System Settings**
+1. Double-click `Shuttle.app` — macOS shows a warning, click Cancel
+2. Go to **System Settings → Privacy & Security → Security**
+3. You will see a one-time **"Open Anyway"** button for Shuttle.app — click it
+4. Confirm in the dialog that appears
+
+**Option C — Right-click**
+1. Right-click (or Control-click) `Shuttle.app`
+2. Select **Open** from the context menu
+3. Click **Open** in the dialog
 
 ### Install the CLI
 ```bash
