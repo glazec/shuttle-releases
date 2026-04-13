@@ -142,7 +142,3 @@ Shuttle uses symlinks to share tools between agents. One source of truth, no cop
 ## Author
 
 Glaze — [i@inevitable.tech](mailto:i@inevitable.tech)
-
-## License
-
-MIT
